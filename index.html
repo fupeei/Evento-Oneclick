@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navcontain">
+        <div class="nav-var">
+            <ul>
+                <li><h1>Dojonary</h1></li>
+                <li><input type="text" value="Search"></li>
+                <li><button class="navbtn" onclick="camtext(this)">Login</button></li>
+            </ul>
+        </div>
+    </div>    
+    <div class="main">
+        <div class="container">
+            <div class="def">
+                <div class="palabra">
+                    <h2>ninja</h2>
+                    <p>noun</p>
+                    <p>Pural: ninjas</p>
+                    <button class="defbtn" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="definicion">
+                    <p>A practitioner skilled in the Japanese art of ninjustsu</p>
+                </div>
+            </div>
+            <div class="def">
+                <div class="palabra">
+                    <h2>ninja</h2>
+                    <p>noun</p>
+                    <p>Pural: ninjas</p>
+                    <button class="defbtn"  >37 likes</button>
+                </div>
+                <div class="definicion">
+                    <p>A programer who breaks down problems with zen-like focus</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="second">
+            <div class="adddef">
+                <h2>Dojonary is definded by YOU</h2>
+                <button class="addbtn" onclick="deletbtn(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
